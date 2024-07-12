@@ -14,26 +14,30 @@
 비교 연산자
 ==, !=, >, <, >=, <= 
   
-논리 연산자: 항상 true / false로 반환
-&&, ||, ! 
-  
-비트 연산자
+논리 연산자
+&&(and), ||(or), !(not)
   
 3항 연산자 
 (조건)?(ture 일 경우 반환):(false 일 경우 반환)
+EX)
+a>=0?"a는 양수 또는 0 이다":"a는 허수이다"
 
-*Dead code : 실행되지 않는 무의미한 코드
+Dead code : 실행되지 않는 무의미한 코드
 
 콘솔 입력 받기
+imoprt java.util* 
+//생략
 Scanner sc = new Scannner(System.in);
 Int k = sc.nextInt();
 
 조건문
 If (조건) {
-  본문
+  
 }
 
 랜덤 함수
+imoprt java.util* 
+//생략
 Random r = new Random();
 Int k = r.nextInt(n); // 0이상 n 미만의 수 랜덤 생성
 
