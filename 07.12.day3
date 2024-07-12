@@ -1,0 +1,45 @@
+연산자
+  
+산술 연산자 
++ , - , * , / (몫) , % (나머지)
+  
+단축 연산자
++=, -=, *=, /=, %=
+  
+단항 연산자
+++ , --
+전위 연산: System.println(++a) //계산 먼저 진행하고 츨력
+휘위 연산: System.println(a--) //츨력 먼저 진행하고 계산 
+  
+비교 연산자
+==, !=, >, <, >=, <= 
+  
+논리 연산자: 항상 true / false로 반환
+&&, ||, ! 
+  
+비트 연산자
+  
+3항 연산자 
+(조건)?(ture 일 경우 반환):(false 일 경우 반환)
+
+*Dead code : 실행되지 않는 무의미한 코드
+
+콘솔 입력 받기
+Scanner sc = new Scannner(System.in);
+Int k = sc.nextInt();
+
+조건문
+If (조건) {
+  본문
+}
+
+랜덤 함수
+Random r = new Random();
+Int k = r.nextInt(n); // 0이상 n 미만의 수 랜덤 생성
+
+
+
+
+
+
+
