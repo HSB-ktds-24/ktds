@@ -8,6 +8,6 @@
 - + : 지정된 문자중 1글자 이상 반복
 - $ : ~으로 끝난다
 - 예시
-+ boolean isEng = word.matches("^[A-Z]+$");
-+ boolean isKor = word.matches("^[가-힣]+$");
-+ boolean isNum = word.matches("^[0-9]+$"); 
+  + boolean isEng = word.matches("^[A-Z]+$");
+  + boolean isKor = word.matches("^[가-힣]+$");
+  + boolean isNum = word.matches("^[0-9]+$"); 
